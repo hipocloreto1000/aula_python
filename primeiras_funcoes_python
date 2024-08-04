@@ -1,0 +1,35 @@
+# criando lista
+
+frutas = ["maça", "abacaxi", "laranja", "banana"] 
+
+# adicionando elemento
+
+frutas.append("kiwi") #adiciona ao final
+frutas.insert(1, "manga") #Insere na posição 1
+
+# Remover elemento
+
+#frutas.remove("banana") # Remove pelo valor
+#del frutas[0] # remove pelo índice
+#frutas.pop() # Remove e retorna o último elemento
+
+#Acessando elementos
+
+#print(frutas[2]) #Acessa 3 elemento
+#print(frutas[-1]) #Acessa último elemento
+
+#Modifica elemento
+
+frutas[1] ="abacate"# modifica elemento na posição 1
+print(frutas)
+
+#Verificar a existência de um elemento
+
+if "abacate" in frutas:
+    
+    print("Abacate está na lista")
+
+#Tamanho da lista
+
+print("Lista: ", frutas)
+print(len(frutas)) #retorna o número de elementos na lista
